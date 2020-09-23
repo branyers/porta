@@ -1,0 +1,398 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    padding: 4px;
+    color: gray;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    background: white;
+    padding: 20px 0;
+    border-bottom: solid 1px #80808069;
+}
+
+.desktop-menu li {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+nav .desktop-menu {
+    display: none;
+}
+
+@media(min-width: 992px) {
+    .burger-menu {
+        display: none;
+    }
+    nav .desktop-menu {
+        display: block;
+    }
+    .mobile-menu {
+        display: none;
+    }
+}
+
+.jumbotron {
+    background-image: url('https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.jumbotron .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgb(0 0 0 / 24%);
+}
+
+.jumbotron-content {
+    padding: 50px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    padding: 8px;
+    border-radius: 5px;
+    /* border: solid 2px gray; */
+    background: white;
+}
+
+.about-me {
+    margin-top: 100px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.info-label {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: #5f5a5ae8
+}
+
+.info-value {
+    padding-left: 5px;
+    color: #a7a7a7;
+    font-weight: 400;
+}
+
+.mobile-menu li {
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.my-services {
+    padding: 30px 0;
+}
+
+.porfafolio {
+    padding: 30px 0;
+}
+
+.education {
+    padding: 30px 0;
+}
+
+.myservices-1,
+.myservices-2,
+.myservices-3,
+.myservices-4,
+.myservices-5,
+.myservices-6 {
+    height: 400px;
+    background-size: cover;
+}
+
+.myservices-description-1,
+.myservices-description-2,
+.myservices-description-3,
+.myservices-description-4,
+.myservices-description-5,
+.myservices-description-6 {
+    height: 200px-description;
+    background-size: cover;
+}
+
+.box-description {
+    border: solid 1px #0000004d;
+    padding: 10px;
+}
+
+.myportafolio-1,
+.myportafolio-2,
+.myportafolio-3,
+.myportafolio-4,
+.myportafolio-5,
+.myportafolio-6 {
+    height: 200px;
+    background-size: cover;
+}
+
+.myeducation-1,
+.myeducation-2,
+.myeducation-3,
+.myeducation-4,
+.myeducation-5,
+.myeducation-6 {
+    height: 200px;
+    background-size: cover;
+}
+
+.myeducation-description-1,
+.myeducation-description-2,
+.myeducation-description-3,
+.myeducation-description-4,
+.myeducation-description-5,
+.myeducation-description-6 {
+    height: 200px-description;
+}
+
+.btn-type {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Lobster', cursive;
+}
+
+.text-education {
+    font-family: 'Lobster', cursive;
+}
+
+.font-family-lobster {
+    font-family: 'Lobster', cursive;
+}
+
+.btn-white {
+    background-color: white;
+}
+
+.myservices-1 {
+    background-image: url('https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    border-radius: 5px;
+}
+
+.myservices-2 {
+    background-image: url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    border-radius: 5px;
+}
+
+.myservices-3 {
+    background-image: url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    border-radius: 5px;
+}
+
+.myservices-4 {
+    background-image: url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    border-radius: 5px;
+}
+
+.myservices-5 {
+    background-image: url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    border-radius: 5px;
+}
+
+.myservices-6 {
+    background-image: url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    border-radius: 5px;
+}
+
+.myportafolio-1 {
+    background-image: url('https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    border-radius: 5px;
+}
+
+.myportafolio-2 {
+    background-image: url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    border-radius: 5px;
+}
+
+.myportafolio-3 {
+    background-image: url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    border-radius: 5px;
+}
+
+.myportafolio-4 {
+    background-image: url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    border-radius: 5px;
+}
+
+.myportafolio-5 {
+    background-image: url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    border-radius: 5px;
+}
+
+.myportafolio-6 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c9/Black_star.png');
+    border-radius: 5px;
+}
+
+.myeducation-1 {
+    background-image: url('https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    border-radius: 5px;
+}
+
+.myeducation-2 {
+    background-image: url('https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    border-radius: 5px;
+}
+
+.myeducation-3 {
+    background-image: url('https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    border-radius: 5px;
+}
+
+.line-separetion {
+    margin-top: 8%;
+}
+
+.my-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    float: left;
+}
+
+.my-description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.title-effect {
+    font-family: inherit;
+    font-size: 44px;
+    font-weight: 900;
+    color: #ccc;
+    opacity: .8;
+}
+
+.foto {
+    width: 100%;
+    height: auto;
+}
+
+.subtitle {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: inherit;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.description {
+    line-height: 1.8;
+    margin: 0;
+    font-size: 14px;
+    color: #7e7e7e;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+}
+
+.inherit-text {
+    font-family: inherit;
+}
+
+.description {
+    margin-top: 15px;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.margin-right {
+    margin-right: 40%;
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.space-top {
+    margin-top: 20px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.hide {
+    display: none;
+}
+
+.style-list {
+    list-style: none;
+}
+
+.padding-top {
+    padding-top: 10px;
+}
+
+.margin-right-icon {
+    margin-right: 10px;
+}
+
+.icon {
+    color: gray;
+}
+
+.icon:hover {
+    color: green;
+}
+
+.margin-left {
+    margin-left: 50px;
+}
+
+.margin-right-copy {
+    margin-right: 50px;
+}

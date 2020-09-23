@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fbe907f589.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <script>
+        function openMenu() {
+            document.getElementById('mobile-menu').classList.toggle('hide')
+        }
+    </script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="container display-flex space-between">
+            <div class="row">
+                <div class="my-name">
+                    Branyes
+                </div>
+            </div>
+
+            <div class="desktop-menu style-list">
+                <ul>
+                    <li> <a href="">Home</a> </li>
+                    <li> <a href="">About Me</a> </li>
+                    <li> <a href="">Portafolio</a></li>
+                    <li> <a href="">Education</a></li>
+                </ul>
+            </div>
+
+            <div class="burger-menu" onclick="openMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="space-top mobile-menu">
+            <ul>
+                <li style="display: inline-block;> <a href=" ">Home</a> </li>
+                <li style="display: inline-block;> <a href="">About Me</a> </li>
+                <li style="display: inline-block;> <a href=" ">Portafolio</a></li>
+                <li style="display: inline-block;> <a href="">Education</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <div class="jumbotron">
+        <div class="overlay"></div>
+        <div class="position-relative">
+            <h1 class="text-white jumbotron-content my-description">I am Branyes Nuñez</h1>
+        </div>
+    </div>
+
+    <div class="about-me">
+        <div class="box">
+            <div class="row">
+                <div class="col-small-12 col-md-4 col-lg-4 border ">
+                    <img src="./img/logo.png" alt="Branyes" class="foto">
+                </div>
+
+                <div class="col-small-12 col-md-8 col-lg-8 ">
+                    <h2 class="about-me-title title-effect">About me.</h2>
+                    <h3 class="subtitle">Estudiante de desarrollo de Software</h3>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis necessitatibus illum quas ab quibusdam unde fugiat explicabo ratione eaque. Mollitia corporis, debitis aperiam distinctio soluta aspernatur odio eaque a asperiores. Lorem ipsum, dolor sit
+                        amet consectetur adipisicing elit. Voluptates placeat a maxime eius aliquid neque aliquam cum ipsum temporibus, consequatur nobis beatae impedit ea ut praesentium perferendis? Cupiditate, laborum asperiores?
+                    </p>
+                    <div class="row">
+
+                        <div class="col-small-12 col-md-8 col-lg-6">
+                            <p class="info-label">Name: <span class="info-value">Branyes Nunez</span></p>
+                            <p class="info-label">Adress: <span class="info-value">R.D Santo Dgo.  </span></p>
+                            <p class="info-label">Telefono: <span class="info-value">(800)-000-0000</span></p>
+                        </div>
+
+                        <div class="col-small-12 col-md-8 col-lg-6">
+                            <p class="info-label">Email: <span class="info-value">Branyes@mail.com</span></p>
+                            <p class="info-label">Freelance: <span class="info-value">Available</span></p>
+                            <p class="info-label">Birth day: <span class="info-value">28 de marzo</span></p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <section class="my-services">
+        <div class="box">
+            <div class="container">
+                <h3 class="text-center title-effect">My Services</h3>
+                <div class="row space-top">
+
+                    <div class="col-small-12 col-md-6 col-lg-4">
+                        <div class="myservices-1  display-flex justify-content-center align-center">
+                            <span class="btn-type btn-white">Desarrollo Web</span>
+                        </div>
+                    </div>
+
+
+                    <div class="col-small-12 col-md-6 col-lg-4">
+                        <div class="myservices-2  display-flex justify-content-center align-center">
+                            <span class="btn-type btn-white">Marketing</span>
+                        </div>
+                    </div>
+
+                    <div class="col-small-12 col-md-6 col-lg-4">
+                        <div class="myservices-3 display-flex justify-content-center align-center">
+                            <span class="btn-type btn-white">Analista</span>
+
+                        </div>
+                    </div>
+
+                    <div class="col-small-12 col-md-6 col-lg-4">
+                        <div class="myservices-4 display-flex justify-content-center align-center">
+                            <span class="btn-type btn-white">Tester</span>
+                        </div>
+                    </div>
+                    <div class="col-small-12 col-md-6 col-lg-4">
+                        <div class="myservices-5 display-flex justify-content-center align-center">
+                            <span class="btn-type btn-white">Web designer</span>
+                        </div>
+                    </div>
+                    <div class="col-small-12 col-md-6 col-lg-4">
+                        <div class="myservices-6 display-flex justify-content-center align-center">
+                            <span class="btn-type btn-white">Desing Graphic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="portafolio">
+        <div class="container space-top">
+            <h3 class="text-center title-effect">My Work</h3>
+            <div class="row space-top">
+
+                <div class="col-small-12 col-md-6 col-lg-4">
+                    <div class="myportafolio-1"></div>
+                    <div class="myservices-description-1 box-description description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ipsam facere aut, corrupti minima accusamus! Esse id quae eius, nemo eum perspiciatis magni eligendi sunt adipisci saepe labore animi praesentium.</div>
+                </div>
+
+                <div class="col-small-12 col-md-6 col-lg-4">
+                    <div class="myportafolio-2"></div>
+                    <div class="myservices-description-1 box-description description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ipsam facere aut, corrupti minima accusamus! Esse id quae eius, nemo eum perspiciatis magni eligendi sunt adipisci saepe labore animi praesentium.</div>
+                </div>
+
+                <div class="col-small-12 col-md-6 col-lg-4">
+                    <div class="myportafolio-2"></div>
+                    <div class="myservices-description-1 box-description description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ipsam facere aut, corrupti minima accusamus! Esse id quae eius, nemo eum perspiciatis magni eligendi sunt adipisci saepe labore animi praesentium.</div>
+                </div>
+
+                <div class="col-small-12 col-md-6 col-lg-4">
+                    <div class="myportafolio-2"></div>
+                    <div class="myservices-description-1 box-description description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ipsam facere aut, corrupti minima accusamus! Esse id quae eius, nemo eum perspiciatis magni eligendi sunt adipisci saepe labore animi praesentium.</div>
+                </div>
+
+                <div class="col-small-12 col-md-6 col-lg-4">
+                    <div class="myportafolio-2"></div>
+                    <div class="myservices-description-1 box-description description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ipsam facere aut, corrupti minima accusamus! Esse id quae eius, nemo eum perspiciatis magni eligendi sunt adipisci saepe labore animi praesentium.</div>
+                </div>
+
+                <div class="col-small-12 col-md-6 col-lg-4">
+                    <div class="myportafolio-2"></div>
+                    <div class="myservices-description-1 box-description description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ipsam facere aut, corrupti minima accusamus! Esse id quae eius, nemo eum perspiciatis magni eligendi sunt adipisci saepe labore animi praesentium.</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="education">
+        <div class="container space-top">
+            <h3 class="text-center title-effect">Education</h3>
+            <div class="row space-top">
+
+                <div class="col-small-12 col-md-6 col-lg-4">
+                    <div class="myeducation-1"></div>
+                    <div class="text-center padding-top text-education">Instituto Tecnologico de las Americas</div>
+                    <div class="myeducation-description-1 box-description space-top description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ipsam facere aut, corrupti minima accusamus! Esse id quae eius, nemo eum perspiciatis magni eligendi sunt adipisci saepe labore animi praesentium.</div>
+                </div>
+
+                <div class="col-small-12 col-md-6 col-lg-4 ">
+                    <div class="myeducation-2 "></div>
+                    <div class="text-center padding-top text-education">Instituto Tecnologico de las Americas</div>
+                    <div class="myeducation-description-2 box-description space-top description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ipsam facere aut, corrupti minima accusamus! Esse id quae eius, nemo eum perspiciatis magni eligendi sunt adipisci saepe labore animi praesentium.</div>
+                </div>
+
+                <div class="col-small-12 col-md-6 col-lg-4">
+                    <div class="myeducation-1"></div>
+                    <div class="text-center padding-top text-education">Instituto Tecnologico de las Americas</div>
+                    <div class="myeducation-description-1 box-description space-top description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ipsam facere aut, corrupti minima accusamus! Esse id quae eius, nemo eum perspiciatis magni eligendi sunt adipisci saepe labore animi praesentium.</div>
+                </div>
+
+                <div class="col-small-12 col-md-6 col-lg-4 ">
+                    <div class="myeducation-1 "></div>
+                    <div class="text-center padding-top text-education ">Instituto Tecnologico de las Americas</div>
+                    <div class="myeducation-description-1 box-description space-top description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ipsam facere aut, corrupti minima accusamus! Esse id quae eius, nemo eum perspiciatis magni eligendi sunt adipisci saepe labore animi praesentium.</div>
+                </div>
+
+
+                <div class="col-small-12 col-md-6 col-lg-4">
+                    <div class="myeducation-1"></div>
+                    <div class="text-center padding-top text-education">Instituto Tecnologico de las Americas</div>
+                    <div class="myeducation-description-1 box-description space-top description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ipsam facere aut, corrupti minima accusamus! Esse id quae eius, nemo eum perspiciatis magni eligendi sunt adipisci saepe labore animi praesentium.</div>
+                </div>
+
+                <div class="col-small-12 col-md-6 col-lg-4 ">
+                    <div class="myeducation-1 "></div>
+                    <div class="text-center padding-top text-education">Instituto Tecnologico de las Americas</div>
+                    <div class="myeducation-description-1 box-description space-top description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ipsam facere aut, corrupti minima accusamus! Esse id quae eius, nemo eum perspiciatis magni eligendi sunt adipisci saepe labore animi praesentium.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    <footer>
+        <div class="box">
+            <div class="row space-top">
+                <div class="col-small-12 col-md-6 col-lg-6">
+                    <div class="margin-left">
+                        <i class="fab fa-youtube margin-right-icon icon text-center"> <span class="font-family-lobster"> Youtube</span></i>
+                        <i class="fab fa-facebook margin-right-icon icon text-center font-family-lobster"><span class="font-family-lobster"> Facebook</span> </i>
+                        <i class="fab fa-twitter margin-right-icon icon text-center font-family-lobster"><span class="font-family-lobster"> Twitter</span></i>
+                        <i class="fab fa-instagram margin-right-icon icon text-center font-family-lobster"><span class="font-family-lobster"> Instagram</span></i>
+                    </div>
+                </div>
+                <div class="col-small-12 col-md-6 col-lg-6">
+                    <p class="text-center font-family-lobster margin-right-copy">© Branyes Nuñez Abad</p>
+                </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
