@@ -11,6 +11,10 @@ a {
     color: gray;
 }
 
+body {
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fkios-images.netlify.app%2F51-the-best-15-background-image-body-style-hd-wallpapers&psig=AOvVaw1Ick1Ww0aso4jQ_1t3MoiE&ust=1607114689737000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKC4qfPWsu0CFQAAAAAdAAAAABAD");
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -43,12 +47,13 @@ nav .desktop-menu {
 }
 
 .jumbotron {
-    background-image: url('https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('https://images.pexels.com/photos/34153/pexels-photo.jpg?cs=srgb&dl=pexels-negative-space-34153.jpg&fm=jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     position: relative;
+    max-width: 100%;
 }
 
 .jumbotron .overlay {
@@ -60,19 +65,14 @@ nav .desktop-menu {
     background: rgb(0 0 0 / 24%);
 }
 
-.jumbotron-content {
-    padding: 50px;
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.foto {
+    box-shadow: -7px -4px 24px -6px rgba(0, 0, 0, 0.64);
+    border-radius: 150px;
 }
 
 .box {
     padding: 8px;
     border-radius: 5px;
-    /* border: solid 2px gray; */
     background: white;
 }
 
@@ -120,16 +120,7 @@ nav .desktop-menu {
 .myservices-6 {
     height: 400px;
     background-size: cover;
-}
-
-.myservices-description-1,
-.myservices-description-2,
-.myservices-description-3,
-.myservices-description-4,
-.myservices-description-5,
-.myservices-description-6 {
-    height: 200px-description;
-    background-size: cover;
+    box-shadow: -7px -4px 24px -6px rgba(0, 0, 0, 0.64);
 }
 
 .box-description {
@@ -145,6 +136,7 @@ nav .desktop-menu {
 .myportafolio-6 {
     height: 200px;
     background-size: cover;
+    box-shadow: -7px -4px 24px -6px rgba(0, 0, 0, 0.64);
 }
 
 .myeducation-1,
@@ -155,15 +147,7 @@ nav .desktop-menu {
 .myeducation-6 {
     height: 200px;
     background-size: cover;
-}
-
-.myeducation-description-1,
-.myeducation-description-2,
-.myeducation-description-3,
-.myeducation-description-4,
-.myeducation-description-5,
-.myeducation-description-6 {
-    height: 200px-description;
+    box-shadow: -7px -4px 24px -6px rgba(0, 0, 0, 0.64);
 }
 
 .btn-type {
@@ -190,72 +174,87 @@ nav .desktop-menu {
 }
 
 .myservices-2 {
-    background-image: url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('https://images.pexels.com/photos/905163/pexels-photo-905163.jpeg?cs=srgb&dl=pexels-dominika-roseclay-905163.jpg&fm=jpg');
     border-radius: 5px;
 }
 
 .myservices-3 {
-    background-image: url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('https://images.pexels.com/photos/185576/pexels-photo-185576.jpeg?cs=srgb&dl=pexels-timur-saglambilek-185576.jpg&fm=jpg');
     border-radius: 5px;
 }
 
 .myservices-4 {
-    background-image: url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('https://images.pexels.com/photos/5472303/pexels-photo-5472303.jpeg?cs=srgb&dl=pexels-ryutaro-tsukata-5472303.jpg&fm=jpg');
     border-radius: 5px;
 }
 
 .myservices-5 {
-    background-image: url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?cs=srgb&dl=pexels-negative-space-160107.jpg&fm=jpg');
     border-radius: 5px;
 }
 
 .myservices-6 {
-    background-image: url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('https://images.pexels.com/photos/1616403/pexels-photo-1616403.jpeg?cs=srgb&dl=pexels-zaksheuskaya-1616403.jpg&fm=jpg');
     border-radius: 5px;
 }
 
 .myportafolio-1 {
-    background-image: url('https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('https://images.pexels.com/photos/267399/pexels-photo-267399.jpeg?cs=srgb&dl=pexels-pixabay-267399.jpg&fm=jpg');
     border-radius: 5px;
 }
 
 .myportafolio-2 {
-    background-image: url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('https://images.pexels.com/photos/34407/pexels-photo.jpg?cs=srgb&dl=pexels-freestocksorg-34407.jpg&fm=jpg');
     border-radius: 5px;
 }
 
 .myportafolio-3 {
-    background-image: url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('https://images.pexels.com/photos/5077039/pexels-photo-5077039.jpeg?cs=srgb&dl=pexels-cottonbro-5077039.jpg&fm=jpg');
     border-radius: 5px;
 }
 
 .myportafolio-4 {
-    background-image: url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('https://images.pexels.com/photos/174938/pexels-photo-174938.jpeg?cs=srgb&dl=pexels-energepiccom-174938.jpg&fm=jpg');
     border-radius: 5px;
 }
 
 .myportafolio-5 {
-    background-image: url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('https://images.pexels.com/photos/1482061/pexels-photo-1482061.jpeg?cs=srgb&dl=pexels-deepanker-verma-1482061.jpg&fm=jpg');
     border-radius: 5px;
 }
 
 .myportafolio-6 {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c9/Black_star.png');
+    background-image: url('https://images.pexels.com/photos/4567339/pexels-photo-4567339.jpeg?cs=srgb&dl=pexels-ian-panelo-4567339.jpg&fm=jpg');
     border-radius: 5px;
 }
 
 .myeducation-1 {
-    background-image: url('https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('https://images.pexels.com/photos/207662/pexels-photo-207662.jpeg?cs=srgb&dl=pexels-pixabay-207662.jpg&fm=jpg');
     border-radius: 5px;
 }
 
 .myeducation-2 {
-    background-image: url('https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('https://images.pexels.com/photos/289738/pexels-photo-289738.jpeg?cs=srgb&dl=pexels-pixabay-289738.jpg&fm=jpg');
     border-radius: 5px;
 }
 
 .myeducation-3 {
-    background-image: url('https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('https://images.pexels.com/photos/1122865/pexels-photo-1122865.jpeg?cs=srgb&dl=pexels-suzy-hazelwood-1122865.jpg&fm=jpg');
+    border-radius: 5px;
+}
+
+.myeducation-4 {
+    background-image: url('https://images.pexels.com/photos/415071/pexels-photo-415071.jpeg?cs=srgb&dl=pexels-pixabay-415071.jpg&fm=jpg');
+    border-radius: 5px;
+}
+
+.myeducation-5 {
+    background-image: url('https://images.pexels.com/photos/5946/books-yellow-book-reading.jpg?cs=srgb&dl=pexels-kaboompics-com-5946.jpg&fm=jpg');
+    border-radius: 5px;
+}
+
+.myeducation-6 {
+    background-image: url('https://images.pexels.com/photos/545062/pexels-photo-545062.jpeg?cs=srgb&dl=pexels-burst-545062.jpg&fm=jpg');
     border-radius: 5px;
 }
 
@@ -373,6 +372,10 @@ nav .desktop-menu {
     list-style: none;
 }
 
+.font-bold {
+    font-weight: bold;
+}
+
 .padding-top {
     padding-top: 10px;
 }
@@ -391,6 +394,10 @@ nav .desktop-menu {
 
 .margin-left {
     margin-left: 50px;
+}
+
+.color-white {
+    color: white;
 }
 
 .margin-right-copy {
