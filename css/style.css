@@ -65,7 +65,16 @@ nav .desktop-menu {
     background: rgb(0 0 0 / 24%);
 }
 
-.foto {
+.jumbotron-content {
+    padding: 50px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-photo {
     box-shadow: -7px -4px 24px -6px rgba(0, 0, 0, 0.64);
     border-radius: 150px;
 }
